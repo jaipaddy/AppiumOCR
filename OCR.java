@@ -73,7 +73,7 @@ public class OCR {
 	 * @param targetImgPath
 	 * @param minSimilarityValue
 	 * @param targetOffset
-	 * @return
+	 * @return X,Y coordinates
 	 */
 	public Point2D getCoords(BufferedImage baseImg, String targetImgPath, double minSimilarityValue,
 			Location targetOffset) {
